@@ -59,11 +59,10 @@ a:hover {
     position: absolute;
     width: 1366px;
     height: 400px;
-    background-attachment: fixed;
+   
 }
 
 #confra {
-    position: relative;
     top: 22vh;
     text-align: center;
     font-size: 7em;
