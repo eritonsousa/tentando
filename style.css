@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Menu';
+    src: url(../tentando/_fontes/agencyfbcnd-bold.otf)  format('opentype');
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 130px;
+    background-color: darkgray;
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    
+}
+
+ul > li {
+    position: relative;
+    left: 65vh;
+    top: -8vh;
+    margin: 10px;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(226, 217, 217);
+}
+
+#logo {
+    position: relative;
+    width: 100px;
+    top: 2vh;
+    left: 15vh;
+}
+
+.bloco {
+    height: 300px;
+}
+
+#capa {
+    background-image: url(_imagens/capa.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 1366px;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#confra {
+    position: relative;
+    top: 22vh;
+    text-align: center;
+    font-size: 7em;
+    font-family: 'Menu';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.212);
+    text-shadow: 2px 2px 8px rgb(75, 73, 73);
+    
+}
+
